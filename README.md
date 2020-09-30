@@ -55,7 +55,6 @@ User-input is required for inputting initial parameters along with confirmining 
 - https://www.bbc.co.uk is not formatted in the manner that: http://www.robotstxt.org suggests. I suggest that this site should not be crawled and be listed as a 'no-go' site where possible.
 
 ### Contact:
-- On GitHub
 - Through the custom email set-up for this crawler: customcrawlerexplained@gmail.com (mailto:customcrawlerexplained@gmail.com)
 
 ### Further reading:
