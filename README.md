@@ -52,7 +52,7 @@ You may need to install some of these yourself via 'pip'. This was the case for 
 User-input is required for inputting initial parameters along with confirmining that comments from /robots.txt files and ToS pages allow crawling.
 
 ### Known issues:
-- https://www.bbc.co.uk is not formatted in the manner that: http://www.robotstxt.org suggests. I suggest that this site should not be crawled and be listed as a 'no-go' site where possible.
+- https://www.bbc.co.uk/robots.txt is not formatted in the manner that: http://www.robotstxt.org suggests. I suggest that this site should not be crawled and be listed as a 'no-go' site where possible.
 
 ### Contact:
 - Through the custom email set-up for this crawler: customcrawlerexplained@gmail.com (mailto:customcrawlerexplained@gmail.com)
