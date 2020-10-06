@@ -1,6 +1,9 @@
 # CrawlerFirstRelease
 First release of my working (hopefully!) crawler script.
 
+### Update:
+crawler_f2.py has been added - with improved RegEx matching (now all RegEx metacharacters are addressed)
+
 ## **Disclaimer**:
 
 I have written this code for non-commercial use only.
@@ -64,5 +67,6 @@ User-input is required for inputting initial parameters along with confirmining 
 - https://benbernardblog.com/web-scraping-and-crawling-are-perfectly-legal-right/ : great blog post that explains some of the issues surrounding crawling
 - https://en.wikipedia.org/wiki/Web_crawler : good overview of crawling
 - https://www.w3schools.com/python/default.asp : very helpful site for Python documentation
+- https://docs.python.org/3/howto/regex.html#regex-howto : great explanation of RegEx's, particularly of metacharacters and raw strings
 
 
