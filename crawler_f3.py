@@ -406,11 +406,7 @@ class Crawler():
             elif el == '^/':
                 crawlable = False
             else:
-                if el.endswith('/'):
-                    ModEl = el[:-1]
-                else:
-                    ModEl = el
-                x = re.search(ModEl, tExtension)
+                x = re.search(el, tExtension)
                 # If there is a match - our target url appears in disallow
                 if x:
                     crawlable = False
