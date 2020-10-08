@@ -486,7 +486,7 @@ class Crawler():
             terms_req_obj = requests.get(ToS_link_full, headers = self.cusHeaders)
             tos_status = getSiteStatus(terms_req_obj, self)
             # If we know that there is a ToS page but we are not able to access it - don't crawl.
-            if tos_status[0] != 2:
+            if tos_status[0] != '2':
                 okContinue = 'N'
                 print("Problem establishing connxn with ToS page")
                 terms_req_obj.close()
