@@ -2,7 +2,7 @@
 First release of my working (hopefully!) crawler script.
 
 ### Update:
-crawler_f2.py has been added - with improved RegEx matching (now all RegEx metacharacters are addressed)
+crawler_f3.py has been added - with improved RegEx matching (now all RegEx metacharacters are addressed)
 
 ## **Disclaimer**:
 
@@ -36,7 +36,10 @@ The control-flow of the code can be broken down into a few coarse blocks:
 4) Provided step (3) is successful, we proceed and crawl the target website.
 5) Store the data in the appropriate format and select the next site to visit.
 
-### Usage:
+### Usage and scripts:
+crawler_f3.py is the most recent version of the crawler script. This contains the code just to crawl sites and collect data.
+crawlerMainDraw.py is a 'superset' of crawler_f3.py - it additionally includes code to draw the NetworkX graph (the drawing code also exists as a standalone [here](https://github.com/mabhishetty/crawler_operations))
+
 To run the script you can simply execute from Terminal:
 `python3.x @/crawler_f1.py` where .x is the version of Python you are running (I used 3.6) and '@/' is the path of crawler_f1.py relative to the current directory
 
